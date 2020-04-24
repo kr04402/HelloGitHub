@@ -10,7 +10,7 @@ template <class T>
 class Stack : public LinkedList<T>{
 	public:
 		virtual bool Delete (T &element){
-			//first가 0이면 false반환
+			//first가 0이면 false반환할 
 			if (this->first == 0)
 				return false;
 			Node<T>* current = this->first;
